@@ -1,0 +1,19 @@
+What is React? Why we use it?
+    React is a Library for building user interfaces.
+    It's a JavaScript Library.
+    Using Just JavaScript Typically isn't a Great Option
+    writing complex JavaScript code quickly becomes cumbersome
+    Complex JavaScript code quickly becomes error-prone
+    Complex JavaScript code often is hard to maintain or edit
+    React offers a Simpler mental model
+
+To get started quickly
+    react.new - it will open CodeSandbox
+
+For Vite
+    npm create vite@latest react-project
+    react
+    JavaScript
+    cd react-project
+    npm install
+    npm run dev
