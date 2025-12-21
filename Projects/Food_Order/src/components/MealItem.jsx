@@ -6,6 +6,8 @@ import CartContext from "../store/CartContext.jsx";
 export default function MealItem({ meal }) {
   const cartCtx = useContext(CartContext);
 
+  const API_URL = "https://food-order-7i1l.onrender.com"
+
   function handleAddMealToCart() {
     cartCtx.addItem(meal);
   }
@@ -13,7 +15,7 @@ export default function MealItem({ meal }) {
   return (
     <li className="meal-item">
       <article>
-        <img src={`http://localhost:3000/${meal.image}`} alt={meal.name} />
+        <img src={`${API_URL}/${meal.image}`} alt={meal.name} />
         <div>
           <h3>{meal.name}</h3>
           <p className="meal-item-price">
